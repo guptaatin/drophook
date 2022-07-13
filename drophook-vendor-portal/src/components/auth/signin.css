@@ -1,0 +1,6 @@
+.top-label label, .selct-lbl-fix{position: static; transform: none; font-family: "Circular Std Book"!important; font-size:16px!important; color:#464A53!important; margin-bottom: 15px; background: #fff; padding-right:5px!important;}
+
+.top-label legend{display: none;}
+.selct-lbl-fix {margin-bottom:9px}
+.lbl-pos label{top: -5px;}
+ .lbl-pos label.MuiInputLabel-shrink{top: 0;}

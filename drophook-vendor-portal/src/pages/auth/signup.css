@@ -1,0 +1,822 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../../components/sidebar/assets/Circular-Std-Book.eot");
+  src: url("../../components/sidebar/assets/Circular-Std-Book.eot?#iefix") format("embedded-opentype"),
+    url("../../components/sidebar/assets/Circular-Std-Book.woff2") format("woff2"),
+    url("../../components/sidebar/assets/CircularStd-Book.woff") format("woff"),
+    url("../../components/sidebar/assets/CircularStd-Book.ttf") format("truetype"),
+    url("../../components/sidebar/assets/CircularStd-Book.svg#CircularStd-Book") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: #fff;
+}
+
+.signup-first {
+  width: 100%;
+  position: relative;
+}
+
+.signup-first ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+.signup-first ul li {
+  margin: 30px;
+  text-align: left;
+  position: relative;
+  display: flex;
+}
+
+.signup-first ul li.next-arrow:before {
+  border-right: solid 1px #ccc;
+  content: "";
+  position: absolute;
+  left: -10px;
+  height: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.signup-first h1 {
+  font-size: 22px;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.iGqMKw,
+.signup-first input[type="text"],
+.hFOHBe,
+.lfMNbD,
+.select-countries>div {
+  font-size: 26px;
+  color: #b1b1b1;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.full-name>div:before {
+  border-bottom: solid 1px #848484;
+}
+
+.Auth__Root-sc-6uxjr2-0 {
+  max-width: 625px;
+  width: 100%;
+}
+
+.form-btn {
+  /* font-family: "Roboto"; */
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  min-width: 120px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #FFF;
+  white-space: nowrap;
+}
+
+.form-btn:hover, .form-btn {
+  color: #fff;
+  background-color: #ff0e2a;
+}
+.signup-first button:hover,
+.signup-first button {
+color: #fff;
+background-color: #ff0e2a;
+}
+.form-btn.btn-white {
+  background-color: #fff;
+  color: #ff0e2a;
+  border: solid 2px #ff0e2a;
+}
+
+.select-countries>div {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 45px !important;
+}
+
+.select-countries-label {
+  top: -3px;
+}
+
+.cstm-data-tbl .MuiSelect-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Auth__Root-sc-6uxjr2-0 {
+  max-width: 700px;
+}
+
+.kWWFcE {
+  width: 100%;
+}
+
+.sign-up-para {
+  font-size: 25px;
+  color: #ebebeb;
+  font-weight: 400;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.validation-text {
+  color: #ff0e2a;
+}
+
+.full-name>div:after {
+  border-bottom: solid 1px #ff0e2a;
+}
+
+.company-details .cQruQh {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.company-details label {
+  font-family: "Circular Std Book";
+  color: #464a53;
+  font-size: 17px;
+}
+
+
+.company-details .MuiInputBase-input,
+.company-details .MuiTextField-root input,
+.company-info .MuiTextField-root input,
+
+.signin-wrapper .MuiTextField-root input {
+  font-family: "Circular Std Book";
+  color: #464A53;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.company-details input::-webkit-input-placeholder,
+.company-info input::-webkit-input-placeholder,
+.signin-wrapper input::-webkit-input-placeholder {
+  font-family: "Circular Std Book";
+  color: #abafb3;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.company-details input::-moz-placeholder,
+.company-info input::-moz-placeholder,
+.signin-wrapper input::-moz-placeholder {
+  font-family: "Circular Std Book";
+  color: #abafb3;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.company-details input:-ms-input-placeholder,
+.company-info input:-ms-input-placeholder,
+.signin-wrapper input:-ms-input-placeholder {
+  font-family: "Circular Std Book";
+  color: #abafb3;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.company-details input:-moz-placeholder,
+.company-info input:-moz-placeholder,
+.signin-wrapper input:-moz-placeholder {
+  font-family: "Circular Std Book";
+  color: #abafb3;
+  font-size: 16px;
+  opacity: 1;
+}
+
+ul.bottom-nav {
+  display: flex;
+  float: right;
+}
+
+ul.bottom-nav-first {
+  display: flex;
+  float: right;
+}
+
+li.pre-arrow,
+li.next-arrow {
+  margin: 30px 10px !important;
+}
+
+.full-name>div:first-child {
+  position: relative;
+  margin-right: 10px;
+}
+
+.full-name>div:last-child {
+  position: relative;
+  margin-left: 10px;
+}
+
+.bMFahj {
+  font-size: 1rem;
+  line-height: 1.75;
+  min-width: 64px;
+  padding: 12px 16px;
+}
+
+.bMFahj:hover {
+  text-decoration: none;
+  background-color: rgb(171 3 22);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+@media (min-width: 1500px) {
+  .cityname {
+    width: 509px !important;
+  }
+
+  .company-details .cQruQh {
+    font-size: 30px;
+  }
+
+  .company-details input:-moz-placeholder {
+    font-size: 24px;
+  }
+
+  .signup-first ul h1 {
+    font-size: 32px;
+  }
+
+  .fyctKC {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .signup-first ul h1 {
+    white-space: nowrap;
+  }
+}
+
+.cDyyLY {
+  width: 390px;
+}
+
+.eKXoHC {
+  width: 260px;
+}
+
+.esFTgU {
+  width: 675px;
+}
+
+.bgFkQz {
+  width: 115px;
+}
+
+.business-profile .bGuEHY,
+.social-icon .bGuEHY,
+.dEZrzW {
+  font-size: 14px;
+}
+
+.business-profile .gLajFd,
+.social-icon .gLajFd,
+.kDgtiL {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.business-profile .XZXmV,
+.business-profile .lpivnr {
+  color: #b1b1b1;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.business-profile .jeTTct,
+.business-profile .EealH {
+  font-family: "Circular Std Book";
+  color: #abafb3;
+  font-size: 17px;
+  opacity: 1;
+  top: 5px;
+}
+
+.business-profile .jvoSJn {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.grey-btn {
+  background: #f4f4f4;
+  border: solid 1px #d1d1d1;
+  color: #363636;
+  border-radius: 9px;
+  padding: 7px 20px;
+}
+
+/* @media (min-width: 1500px) {
+  .business-profile .jeTTct {
+    font-size: 24px;
+  }
+  .business-profile .XZXmV {
+    font-size: 24px;
+  }
+  .business-profile .gLajFd,
+  .social-icon .gLajFd {
+    font-size: 30px;
+  }
+  .business-profile .bGuEHY {
+    font-size: 20px;
+  }
+  .cDyyLY {
+    width: 510px;
+  }
+  .eKXoHC {
+    width: 320px;
+  }
+  .esFTgU {
+    width: 855px;
+  }
+  .bgFkQz {
+    width: 148px;
+  }
+  .gpveau {
+    width: 148px;
+  }
+  .company-details label {
+    font-size: 24px;
+  }
+  .Auth__Root-sc-6uxjr2-0 {
+    max-width: 900px;
+  }
+  .form-btn {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+  }
+  .signup-first ul h1 {
+    font-size: 32px;
+  }
+  .fyctKC,
+  .iGqMKw {
+    font-size: 36px;
+  }
+} */
+.Auth__Root-sc-6uxjr2-0 {
+  /* max-width: 520px; */
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+ul.bottom-nav-first {
+  display: flex;
+  float: right;
+  position: absolute;
+  right: 30px;
+}
+
+ul.bottom-nav {
+  display: flex;
+  float: right;
+  position: absolute;
+  right: -75px;
+}
+
+.MuiInputBase-colorPrimary {
+  position: relative;
+}
+
+ svg.SignIn__Brand-sc-1op03ps-0 {
+  width: 150px;
+}
+
+ svg g#Group_15 path {
+  fill: #ff0e2a;
+}
+
+ svg path#Path_43 {
+  fill: #ff0e2a;
+}
+
+.hXWFWd.MuiSelect-select {
+  display: flex;
+  align-items: center;
+}
+
+.cSeaRx {
+  width: 100%;
+}
+
+.gKYjHY {
+  width: 390px;
+}
+
+.jIahgi {
+  width: 260px;
+}
+
+.jovmiw {
+  width: 675px;
+}
+
+.kPGKAa {
+  width: 115px;
+}
+
+.company-details .hzhNmf {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+body.singin-cls {
+  background: rgb(247, 249, 252) !important;
+  margin: 0px;
+}
+
+body.singin-cls .SignIn__Wrapper-sc-1op03ps-1>h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+body.singin-cls .MuiButton-fullWidth {
+  padding: 8px;
+}
+
+.fXxeXg:hover,
+button:hover {
+  background-color: rgba(255, 14, 42, 0.7);
+}
+
+.back-btn-wrapper>div,
+.approve-btn-wrapper>div,
+.below-box-wrapper .left-item>div {
+  background-color: transparent;
+}
+
+.approve-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-btn-wrapper>div {
+  text-align: left;
+}
+
+.below-box-wrapper .left-item,
+.below-box-wrapper .right-item {
+  border-bottom: solid 1px rgb(170, 170, 170);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.below-box-wrapper .left-item>div,
+.below-box-wrapper .right-item>div {
+  text-align: left;
+}
+
+.below-box-wrapper .left-item>div {
+  font-weight: 600;
+}
+
+.below-box-wrapper .left-item {
+  max-width: 30%;
+}
+
+.below-box-wrapper .right-item {
+  max-width: 70%;
+}
+
+.below-box-wrapper .right-item>div {
+  color: rgb(54, 54, 54);
+  background: rgb(244, 244, 244);
+
+  border-radius: 9px;
+  padding: 7px 20px;
+}
+
+.approve-btn.form-btn {
+  background-color: #2ca507;
+  border-color: #2ca507;
+}
+
+.decline-btn.form-btn {
+  background-color: #800000;
+  border-color: #800000;
+}
+
+.Footer__Wrapper-sc-1vevptl-0 {
+  display: none;
+}
+
+.MuiListItemButton-root.active {
+  background-color: rgba(255, 14, 42, 0.05);
+}
+
+.scrollbar-container {
+  background-color: transparent !important;
+}
+
+.MuiListItemButton-root.active span {
+  color: #6a707e;
+}
+
+.MuiListItemButton-root.active:after {
+  content: "";
+  width: 5px;
+  display: inline-block;
+  background: #ff0e2a !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.scrollbar-container svg {
+  color: #aaa;
+}
+
+.singin-cls>#root>div {
+  max-width: 540px;
+}
+
+.mrgn-12-0>div {
+  margin: 0;
+}
+
+.mrgn-12-0 {
+  margin: 12px 0 !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+body>iframe {
+  display: none;
+}
+
+.signup-first>form>div {
+  margin-bottom: 15px;
+}
+
+.cityname {
+  width: 309px;
+}
+
+.form-select {
+  width: 180px;
+  margin: 0 15px;
+}
+
+.zipcode {
+  width: 180px;
+}
+
+.small-red-text {
+  font-size: 20px;
+  color: #ff2740;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.gray-bold-text {
+  font-size: 30px;
+  color: #464a53;
+  font-weight: 500;
+}
+
+.paratext {
+  font-size: 24px;
+  color: #b1b1b1;
+  font-weight: 400;
+}
+
+.margin-tb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social-form {
+  margin: 30px auto;
+}
+
+.social-form .social-row {
+  display: flex;
+  align-items: center;
+}
+
+.social-form .social-row .social-icons {
+  display: block;
+  margin: auto;
+}
+
+.social-form .fb-form .social-icons {
+  width: 24px;
+}
+
+.social-form .insta-form .social-icons {
+  width: 45px;
+}
+
+.social-form .linkedin-form .social-icons {
+  width: 36px;
+}
+
+.social-form .twitter-form .social-icons {
+  width: 40px;
+}
+
+.social-form .youtube-form .social-icons {
+  width: 40px;
+}
+
+.social-form .pinterest-form .social-icons {
+  width: 36px;
+}
+
+.social-icon-wrap {
+  width: 45px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.social-form .MuiInputBase-root {
+  border: solid 1px #dddfe1;
+  width: calc(100% - 65px);
+  padding: 5px 10px;
+}
+
+.social-form>div {
+  margin-bottom: 15px;
+}
+
+ul.pos-center {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.company-details .MuiInputLabel-root {
+  position: static;
+  transform: none;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.company-details fieldset {
+  top: 0 !important;
+}
+
+.company-details fieldset legend {
+  display: none;
+}
+
+input {
+  font-size: 24px;
+  color: #abafb3;
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #abafb3;
+  opacity: 1;
+  font-size: 24px;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #abafb3;
+  opacity: 1;
+  font-size: 24px;
+}
+
+input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #abafb3;
+  opacity: 1;
+  font-size: 24px;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #abafb3;
+  opacity: 1;
+  font-size: 24px;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 50px white inset !important;
+}
+
+.select-countries svg {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background: #fff;
+}
+
+label {
+  background: #fff;
+  padding-right: 5px;
+}
+
+.cd-head {
+  font-size: 25px;
+  font-weight: 500;
+  color: #464A53;
+  font-family: 'Roboto', sans-serif;
+}
+
+.company-details label {
+  font-family: "Circular Std Book" !important;
+  font-size: 16px !important;
+  color: #464A53 !important;
+  margin-bottom: 15px;
+  background: #fff;
+  padding-right: 5px !important;
+}
+
+header {
+  padding: 0 30px
+}
+
+.snack-user {
+  position: static;
+}
+
+.form-btn svg {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.3928571428571428rem;
+}
+.brand-drophook{
+  width: 100%;
+  max-width: 155px;
+}

@@ -1,0 +1,64 @@
+.jOUQhz {
+  background: #ff2740;
+}
+.RRcrZ {
+  background: #fff;
+}
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("./assets/Circular-Std-Book.eot");
+  src: url("./assets/Circular-Std-Book.eot?#iefix") format("embedded-opentype"),
+    url("./assets/Circular-Std-Book.woff2") format("woff2"),
+    url("./assets/CircularStd-Book.woff") format("woff"),
+    url("./assets/CircularStd-Book.ttf") format("truetype"),
+    url("./assets/CircularStd-Book.svg#CircularStd-Book") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.uwHSY {
+  font-family: "Circular Std Book";
+  font-size: 12px;
+  color: #abafb3;
+  text-transform: uppercase;
+}
+.iysOsE span {
+  font-family: "Circular Std Book";
+  font-size: 16px;
+  color: #6a707e;
+}
+.hcQmkt.active,
+.guWyxi.active {
+  /* background-color: rgba(255, 39, 64, 0.05); */
+  position: relative;
+}
+.hcQmkt.active span {
+  color: #6a707e;
+}
+.hcQmkt.active:after,
+.guWyxi.active:after {
+  content: "";
+  width: 5px;
+  display: inline-block;
+  background: #f00;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.jOUQhz:hover {
+  background: #f00;
+}
+.jQaPHc {
+  display: none;
+}
+.sidebar-head,
+.sidebar-head.active {
+  /* filter: drop-shadow(1.5px 2.598px 6px rgba(119, 119, 119, 0.1)); */
+  background-color: #ff2740 !important;
+  pointer-events: none;
+}
+.sidebar-drawer {
+  /* filter: drop-shadow(1.5px 2.598px 6px rgba(119,119,119,0.1)); */
+  background-color: #ffffff;
+}

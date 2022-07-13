@@ -1,0 +1,16 @@
+.label-vendor {
+  width: 100px;
+  font-size: 14px;
+}
+
+.declined-status {
+  color: #f00;
+}
+
+.pending-status {
+  color: rgb(187, 115, 7);
+}
+
+.approved-status {
+  color: green;
+}

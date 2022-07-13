@@ -1,0 +1,250 @@
+.ordersview-wrapper header .search-bar {
+    width: calc(100% - 200px);
+    display: none;
+}
+
+body {
+    background: rgb(247, 249, 252) !important;
+    margin: 0px;
+}
+
+*,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ordersview-wrapper header {
+    background: transparent;
+}
+
+.status-block.active-block {
+    border-bottom-color: #ff2740;
+}
+
+.status-block {
+    border-bottom: solid 5px #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.label-trans {
+    background: transparent;
+}
+
+.order-id-lbl {
+    border: none;
+}
+
+.order-id-lbl label {
+    font-size: 14px;
+    color: #4D4D4D;
+    font-weight: 400;
+}
+
+.order-id-lbl label.MuiInputLabel-shrink {
+    background: rgb(247, 249, 252)
+}
+
+.order-id-lbl fieldset {
+    border: none;
+}
+
+.order-id-lbl .select-fix>div {
+    background: #EBEBEB;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.status-block h6 {
+    color: #464A53;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.status-block text {
+    color: #b1b1b1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.cstm-area>div,
+.cstm-area>div>div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #B1B1B1;
+    opacity: 1;
+    font-family: "Circular Std Book" !important;
+    font-size: 16px !important;
+}
+
+input::-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #B1B1B1;
+    opacity: 1;
+    font-family: "Circular Std Book" !important;
+    font-size: 16px !important;
+}
+
+input:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #B1B1B1;
+    opacity: 1;
+    font-family: "Circular Std Book" !important;
+    font-size: 16px !important;
+}
+
+input:-moz-placeholder,
+input[type="text"]:-moz-placeholder,
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #B1B1B1;
+    opacity: 1;
+    font-family: "Circular Std Book" !important;
+    font-size: 16px !important;
+}
+
+.order-search-wrap {
+    padding: 0;
+    display: flex;
+    background: transparent;
+}
+
+.order-search-wrap .search-field input {
+
+    height: 27px;
+    border-radius: 0;
+}
+
+.order-search-wrap .btn {
+    border-radius: 0;
+}
+
+.search-field>div {
+    border-radius: 0;
+}
+
+ul.filter {
+    list-style: none;
+}
+
+ul.filter li {
+    display: inline-block;
+    margin-right: 30px
+}
+
+ul.filter li a {
+    color: #464a53 !important;
+    font-size: 13px;
+    font-family: "Circular Std Book" !important;
+    font-weight: normal;
+}
+
+.cstm-clmn>div {
+    height: 100%;
+    padding: 45px 0 0 0;
+}
+
+.cstm-clmn>div h4 {
+    padding-left: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #464A53
+}
+
+.cstm-clmn label {
+    background: rgb(247, 249, 252) !important;
+    font-family: 'Circular Std Book';
+    font-size: 16px;
+    color: #6A707E;
+}
+
+.product-name {
+    color: #4169e1
+}
+
+.actions-btn {
+    color: #000;
+
+}
+
+.status-btn,
+.actions-btn {
+    width: 100%;
+    max-width: 120px;
+}
+
+.prdct-img img {
+    max-width: 50px;
+}
+
+.cstm-clmn .filter-text {
+    padding-left: 0;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ABAFB3;
+    display: inline-block;
+    font-family: "Circular Std Book" !important;
+    text-transform: uppercase;
+}
+
+.cstm-clmn .filter-box {
+    border-bottom: solid 1px rgba(171, 175, 179, .4);
+    padding: 20px 0 15px 30px
+}
+
+
+
+.cstm-clmn .filter-item {
+    margin: 10px 0;
+}
+
+.cstm-clmn .filter-item label {
+    font-size: 16px;
+    color: #6A707E;
+    font-family: "Circular Std Book" !important;
+    margin: 5px 0
+}
+
+.cstm-clmn .filter-item label .MuiFormControlLabel-label {
+    margin-left: 10px;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.ordersview-wrapper>div {
+    justify-content: center;
+}
+
+.MuiPopover-paper {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}

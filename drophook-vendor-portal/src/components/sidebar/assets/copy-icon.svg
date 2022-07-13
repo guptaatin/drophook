@@ -1,0 +1,10 @@
+<svg id="Group_1632" data-name="Group 1632" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.424" height="19.504" viewBox="0 0 16.424 19.504">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2516" data-name="Rectangle 2516" width="16.424" height="19.504" fill="#FF0E2A" stroke="#FF0E2A" stroke-width="0.5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1631" data-name="Group 1631" clip-path="url(#clip-path)">
+    <path id="Path_598" data-name="Path 598" d="M11.3,8.724v5.9h4.1V4.453H12.488a.51.51,0,0,1-.516-.508V1.024H4.878V5.136H7.7a.548.548,0,0,1,.372.152L11.144,8.36a.545.545,0,0,1,.152.364Zm0,6.934V19a.515.515,0,0,1-.516.508H.516A.51.51,0,0,1,0,19V5.644a.51.51,0,0,1,.516-.508H3.854V.516A.51.51,0,0,1,4.362,0h8.474A.492.492,0,0,1,13.2.159l3.072,3.072a.5.5,0,0,1,.152.364V15.142a.515.515,0,0,1-.508.516H11.3ZM15.02,3.428,13,1.4V3.428ZM6.836,6.16H1.024V18.48h9.24V9.588H7.352a.516.516,0,0,1-.516-.516Zm3.056,2.4L7.867,6.54V8.564Z" fill="#FF0E2A" stroke="#FF0E2A" stroke-width="0.5"/>
+  </g>
+</svg>
